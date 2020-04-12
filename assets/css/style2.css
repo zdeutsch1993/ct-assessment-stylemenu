@@ -6,6 +6,18 @@
 */
 
 
+
+body    {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/oswald/v31/TK3_WkUHHAIjg75cFRf3bXL8LICs1_FvsUZiYySUhiCXAA.woff) format('woff');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    font-size: 14px;
+}
+
+
+
 nav {font-family: sans-serif; font-size: 10px;}
 #main {width: 900px; margin: 10px auto;}
 
@@ -15,6 +27,22 @@ nav {font-family: sans-serif; font-size: 10px;}
         - set the font size to 46px 
         - use a lighter weight font
 */
+
+
+
+h1  {
+    font-family: 'Bungee Inline';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Bungee Inline'), local('BungeeInline-Regular'), url(https://fonts.gstatic.com/s/bungeeinline/v5/Gg8zN58UcgnlCweMrih332VuPGV_-XMjhsY.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    font-size: 46px;
+    font-weight: lighter;
+}
+
+
+
+
 
 
 #menu {columns: 420px 2; column-gap: 60px;}
@@ -28,6 +56,17 @@ h2 {margin-top: 0;}
 */
 
 
+
+h2  {
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
 /* 
      Update the following ruleset (dt) to accomplish the following:
         - Make the name of each menu item appear in bold 
@@ -35,6 +74,8 @@ h2 {margin-top: 0;}
 */
 dt {
     display: inline;
+    font-size:	16px;
+    font-weight:	bold;
 }
 
 /* 
@@ -54,11 +95,15 @@ dd::after {content: " "; display: block; clear: both; margin-bottom: 15px;}
     - right align the text in the footer
 */
 
-
+footer{
+    text-align: right;
+}
 
 /* 
     Add a CSS ruleset targeting the starters and desserts sections to accomplish the following:
     - draw a 2px black border around the sections
 */
 
-
+#starters,#desserts{
+    border: 2px solid black;
+}
