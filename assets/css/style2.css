@@ -83,7 +83,9 @@ dt {
     - Make a comma appear after the name of each menu item
 */
 
-
+dt::after{
+    content:    ",";
+}
 
 dd {display: inline; margin: 0;}
 dd::after {content: " "; display: block; clear: both; margin-bottom: 15px;}
